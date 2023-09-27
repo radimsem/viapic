@@ -1,0 +1,3 @@
+# Viapic
+
+- zde můžeme psát nápady a připomínky ohledně projektu...
