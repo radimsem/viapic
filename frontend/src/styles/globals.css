@@ -4,7 +4,10 @@
 
 @layer components {
   .nav-transport-item {
-    @apply text-blue-500 bg-blue-50 rounded-xl transition-colors focus:text-white focus:bg-blue-500 
+    @apply text-blue-500 bg-blue-50 transition-colors
+  }
+  .track-input {
+    @apply !pl-0 !border-x-0 !border-t-0 !rounded-none transition-colors focus:!border-blue-200
   }
 }
  
