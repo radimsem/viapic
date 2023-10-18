@@ -9,6 +9,9 @@
   .track-input {
     @apply !pl-0 !border-x-0 !border-t-0 !rounded-none transition-colors focus:!border-blue-200
   }
+  .extended-options-group {
+    @apply flex flex-col space-y-3
+  }
 }
  
 @layer base {
