@@ -48,7 +48,7 @@ function SearchLocation({ name, placeholder, Icon }: Props) {
             e.preventDefault();
             setOpen(!open);
           }}
-          className={`flex w-[200px] justify-between pl-0 ${value ? 'text-zinc-800' : 'text-zinc-500'} border-x-0 border-t-0 rounded-none`}
+          className={`flex w-[200px] justify-between pl-0 ${value ? 'text-zinc-800' : 'text-zinc-500'} border-x-0 border-t-0 rounded-none hover:bg-inherit`}
         >
           {value ? value : `Zvolte ${placeholder}`}
           <Icon width={18} height={18} className='text-blue-500' />
